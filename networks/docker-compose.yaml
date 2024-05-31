@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  mongodb-example:
+    image: mongo:latest
+    container_name: mongodb-example
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ardh
+      MONGO_INITDB_ROOT_PASSWORD: ardh
+      MONGO_INITDB_DATABASE: admin
+    networks:
+      - networks_example
+
+networks:
+  networks_example:
+    name: network_example
+    driver: bridge

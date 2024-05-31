@@ -1,0 +1,15 @@
+firstName: Ardi
+lastName: Hidayat
+hobbies:
+  - Coding
+  - Travelling
+address:
+  street: Jl Raya Bogor
+  city: Jakarta Timur
+  province: DKI Jakarta
+  country: Indonesua
+wallet:
+  - type: cash
+    amount: 100000
+  - type: debit
+    amount: 200000

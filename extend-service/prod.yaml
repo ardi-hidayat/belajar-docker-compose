@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  app:
+    environment:
+      - "MODE=prod"
+
+
+
+#MULTI ENVIRONMENT
+#docker compose -f docker-compose.yaml -f prod.yaml create
+#docker compose -f docker-compose.yaml -f prod.yaml start
+#curl localhost:8080
+#docker compose -f docker-compose.yaml -f prod.yaml down
+
